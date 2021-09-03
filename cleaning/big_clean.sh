@@ -9,6 +9,6 @@ name=$(ls)
 DIR=$(dirname "$SCRATCH")
 BASENAME=$(basename "$SCRATCH")
 echo $DIR $BASENAME
-cd "$here"
-tar -cvf cleaned_"$name".tgz "$DIR"/"$BASENAME"/"$name"
+
+tar -cvzf "$here"/cleaned_"$name".tgz "$name"
 

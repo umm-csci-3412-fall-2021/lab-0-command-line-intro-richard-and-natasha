@@ -25,3 +25,6 @@
 [submodule "compiling/test/test_helper/bats-file"]
 	path = compiling/test/test_helper/bats-file
 	url = https://github.com/bats-core/bats-file
+[submodule "cleaning/test/test_helperbats-support"]
+	path = cleaning/test/test_helperbats-support
+	url = https://github.com/bats-core/bats-support
